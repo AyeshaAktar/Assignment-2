@@ -1,16 +1,55 @@
-/* Players Info */
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Common Styles */
 body{
+    font-family: 'Poppins', sans-serif;
     margin: 0px;
 }
+
+/* Banner */
+.banner{
+    background-color: rgb(21, 21, 117);
+    display: flex;
+    padding: 5%;
+}
+h1{
+    font-size: 70px;
+    font-weight: 700;
+    color: white;
+    padding: 5%;
+}
+.banner-title{
+  width: 50%;
+}
+.banner img{
+    width: 556.01px;
+    height: 438px;
+}
+.banner-title p{
+    background-color: rgb(218, 57, 84);
+    width: 110px;
+    color: white;
+    padding: 5px;
+}
+.link-button{
+    text-decoration: none;
+}
+
+.fa-arrow-right{
+    color: white;
+}
+
+/* Player Information */
 
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 45px;
     grid-column-gap: 30px;
-    align-items: center;
     margin-left: 180px;
-    margin-right: 200px;
+    margin-right: 210px;
+    margin-top: 70px;
 }
 .player img{
     width: 300px;
@@ -18,8 +57,32 @@ body{
 }
 .player{
     background-color: white;
-    box-shadow: 5px 5px 5px 5px rgba(128, 128, 128, 0.308);
+    box-shadow: 0px 0px 40px rgba(128, 128, 128, 0.308);
     width: 300px;
     height: 470px;
     padding: 15px;
+}
+.player-name{
+    font-size: 25px;
+    font-weight: 700;
+}
+.player p{
+    font-size: 16px;
+}
+
+/* Footr */
+footer img{
+    width: 400px;
+    height: 150px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 158px;
+    margin-bottom: 60px;
+}
+.fab{
+    padding-right: 10px;
 }
