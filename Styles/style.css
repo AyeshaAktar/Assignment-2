@@ -17,20 +17,29 @@ h1{
     font-size: 70px;
     font-weight: 700;
     color: white;
-    padding: 5%;
+    padding: 0px 20px;
+}
+h1:hover{
+    /* background-color: rgba(255, 160, 122, 0.315); */
+    color: lightskyblue;
 }
 .banner-title{
   width: 50%;
 }
 .banner img{
-    width: 556.01px;
+    width: 556px;
     height: 438px;
+}
+.banner-image:hover{
+    transform: rotate(30deg);
+    transition: transform 2s ease-in-out;
 }
 .banner-title p{
     background-color: rgb(218, 57, 84);
     width: 110px;
     color: white;
     padding: 5px;
+
 }
 .link-button{
     text-decoration: none;
@@ -38,6 +47,10 @@ h1{
 
 .fa-arrow-right{
     color: white;
+}
+.banner-title p:hover{
+    transform: scale(1.2);
+    background-color:darkred;
 }
 
 /* Player Information */
@@ -61,6 +74,7 @@ h1{
     width: 300px;
     height: 470px;
     padding: 15px;
+    border-radius: 5;
 }
 .player-name{
     font-size: 25px;
@@ -70,10 +84,10 @@ h1{
     font-size: 16px;
 }
 
-/* Footr */
+/* Footr section*/
 footer img{
     width: 400px;
-    height: 150px;
+    height: 120px;
 }
 footer{
     display: flex;
@@ -85,4 +99,40 @@ footer{
 }
 .fab{
     padding-right: 10px;
+}
+/* Groups details */
+.league-group h2{
+    margin-top: 100px;
+    text-align: center;
+}
+.groups-details{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+}
+.group{
+    display: flex;
+    margin-top: 15px;
+}
+.group img{
+    width: 90px;
+}
+
+.group p{
+    margin-left: 10px;
+}
+
+/* Match Detail */
+.team img{
+    width: 90px;
+}
+.team{
+    display: flex;
+    margin: 20px;
+}
+.first-match{
+    display: flex;
+    
 }
