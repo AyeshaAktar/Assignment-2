@@ -84,6 +84,54 @@ h1:hover{
     font-size: 16px;
 }
 
+
+/* Groups details */
+.league-group h2{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 50px;
+}
+.groups-details{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    margin:0 auto;
+}
+.group{
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+}
+.group img{
+    width: 90px;
+}
+
+.group p{
+    margin-left: 10px;
+}
+
+/* Match Detail */
+
+.match-details-title{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 100px;
+}
+.match-serial{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.match-details{
+    text-align: center;
+}
+.country-name h2{
+  text-align: center;
+  margin: 0;
+}
+.match-time{
+   text-align: center;
+}
 /* Footr section*/
 footer img{
     width: 400px;
@@ -100,39 +148,4 @@ footer{
 .fab{
     padding-right: 10px;
 }
-/* Groups details */
-.league-group h2{
-    margin-top: 100px;
-    text-align: center;
-}
-.groups-details{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: center;
-    align-items: center;
-    margin-left: 300px;
-}
-.group{
-    display: flex;
-    margin-top: 15px;
-}
-.group img{
-    width: 90px;
-}
 
-.group p{
-    margin-left: 10px;
-}
-
-/* Match Detail */
-.team img{
-    width: 90px;
-}
-.team{
-    display: flex;
-    margin: 20px;
-}
-.first-match{
-    display: flex;
-    
-}
